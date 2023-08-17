@@ -7,7 +7,7 @@ import pyodide_http
 # Patch the Requests library so it works with Pyscript
 pyodide_http.patch_all()
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "YOUR_API_KEY"
 
 url = "https://api.openai.com/v1/chat/completions"
 headers = {"Content-Type": "application/json",
